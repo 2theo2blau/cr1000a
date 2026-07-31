@@ -1,6 +1,6 @@
 # CR1000A
 
-Tools for working with the ASUS CR1000A router: unpacking firmware binaries and
+Tools for working with the Verizon CR1000A router: unpacking firmware binaries and
 decrypting/encrypting the router's configuration backup files so they can be
 modified and reloaded onto the device through the "restore from backup" action
 in the router's web UI.
