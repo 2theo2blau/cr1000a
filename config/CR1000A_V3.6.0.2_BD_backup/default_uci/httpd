@@ -1,0 +1,20 @@
+
+config interface 'local'
+	option https_port '443'
+	option enable '1'
+	option http_port '80'
+	option force_https '1'
+	option develop '0'
+
+config remote 'remote_ipv4'
+	option enable '0'
+	option port '443'
+	option https_enable '0'
+	option https_port '443'
+
+config remote 'remote_ipv6'
+	option enable '0'
+	option port '443'
+	option https_enable '0'
+	option https_port '443'
+

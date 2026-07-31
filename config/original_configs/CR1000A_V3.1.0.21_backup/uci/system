@@ -1,0 +1,22 @@
+
+config interface 'lan'
+	option coax_name 'Coax'
+	option ethernet_name 'Ethernet'
+	option network_name 'Network (Home/Office)'
+
+config timeserver 'ntp'
+	option enabled '1'
+	list server '0.north-america.pool.ntp.org'
+	list server '1.north-america.pool.ntp.org'
+
+config system 'main'
+	option timezone 'UTC0'
+	option zonename 'UTC'
+
+config interface 'wan'
+	option name 'Broadband Connection (Ethernet)'
+
+config profile 'active'
+	option gui_mode '11'
+	option router_name 'Verizon Router'
+

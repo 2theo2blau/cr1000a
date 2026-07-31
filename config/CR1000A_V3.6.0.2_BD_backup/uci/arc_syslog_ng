@@ -1,0 +1,4 @@
+
+config syslog 'user_remote'
+	option remote_enable '1'
+

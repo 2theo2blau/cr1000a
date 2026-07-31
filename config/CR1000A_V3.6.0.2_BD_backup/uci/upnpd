@@ -1,0 +1,5 @@
+
+config upnpd 'config'
+	option enable_cleanrule '0'
+	option enabled '0'
+

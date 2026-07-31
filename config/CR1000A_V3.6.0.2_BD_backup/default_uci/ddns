@@ -1,0 +1,41 @@
+
+config service 'myddns_config0'
+	option enabled '0'
+	option use_https '0'
+
+config service 'myddns_config1'
+	option enabled '0'
+	option use_https '0'
+
+config service 'myddns_config2'
+	option enabled '0'
+	option use_https '0'
+
+config service 'myddns_config3'
+	option enabled '0'
+	option use_https '0'
+
+config service 'myddns_config4'
+	option enabled '0'
+	option use_https '0'
+
+config service 'myddns_config5'
+	option enabled '0'
+	option use_https '0'
+
+config service 'myddns_config6'
+	option enabled '0'
+	option use_https '0'
+
+config service 'myddns_config7'
+	option enabled '0'
+	option use_https '0'
+
+config service 'myddns_config8'
+	option enabled '0'
+	option use_https '0'
+
+config service 'myddns_config9'
+	option enabled '0'
+	option use_https '0'
+

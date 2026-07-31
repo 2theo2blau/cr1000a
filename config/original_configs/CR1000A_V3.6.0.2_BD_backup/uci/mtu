@@ -1,0 +1,17 @@
+
+config interface 'wan'
+	option value '1500'
+	option enable '2'
+
+config interface 'lan'
+	option value '1500'
+	option enable '0'
+
+config interface 'eth'
+	option value '1500'
+	option enable '0'
+
+config interface 'coax'
+	option value '1500'
+	option enable '0'
+

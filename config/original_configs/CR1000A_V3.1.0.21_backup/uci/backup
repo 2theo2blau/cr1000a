@@ -1,0 +1,4 @@
+
+config backup 'stat'
+	option AutoBackupEnable '1'
+

@@ -1,0 +1,17 @@
+
+config generic 'ipv4'
+	option allow_stb '0'
+	option block_wan_ping '0'
+	option block_wan_traceroute '1'
+	option level '1'
+	option wan_filter '1'
+
+config generic 'ipv6'
+	option block_wan_ping '0'
+	option block_wan_traceroute '0'
+	option level '0'
+	option block_lan_ping '0'
+	option wan_filter '1'
+
+config generic 'igmp'
+

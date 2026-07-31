@@ -1,0 +1,6 @@
+
+config moca 'config'
+	option Enable '1'
+	option PrivacyEnabledSetting '0'
+	option KeyPassphrase 'REDACTED_MOCA_PASSPHRASE'
+

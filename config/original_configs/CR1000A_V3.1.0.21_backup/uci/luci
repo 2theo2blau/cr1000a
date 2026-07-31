@@ -1,0 +1,20 @@
+
+config internal 'verizon'
+	option autorefresh '0'
+	option lannopwd '0'
+	option warnbeforesave '1'
+
+config internal 'sauth'
+	option loginfail '0'
+	option sessionmax '1'
+	option banmaxtimeout '86400'
+	option banmaxtime '50'
+	option loginsuccess '1'
+	option bantime '10'
+	option bantimeout '60'
+	option banenable '1'
+	option sessiontime '600'
+
+config internal 'wizard'
+	option finish '1'
+

@@ -1,0 +1,16 @@
+
+config interface
+	option domain_name 'mynetworksettings.com'
+	option ifname 'br-lan'
+
+config interface
+	option ifname 'br-lan1'
+
+config interface
+	option ifname 'br-lan2'
+
+config interface
+	option ifname 'br-lan3'
+
+config interface 'bridge'
+

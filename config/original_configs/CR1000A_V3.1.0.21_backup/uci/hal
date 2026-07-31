@@ -1,0 +1,4 @@
+
+config system 'system'
+	option model_name 'CR1000A'
+

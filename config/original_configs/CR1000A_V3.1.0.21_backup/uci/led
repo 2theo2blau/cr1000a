@@ -1,0 +1,4 @@
+
+config feature 'dim'
+	option dim_pattern 'dim'
+

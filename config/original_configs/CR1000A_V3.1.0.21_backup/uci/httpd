@@ -1,0 +1,10 @@
+
+config interface 'local'
+	option https_port '443'
+
+config interface 'remote'
+	option enable '0'
+	option port '443'
+	option https_enable '0'
+	option https_port '443'
+

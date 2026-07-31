@@ -1,0 +1,13 @@
+
+config classify 'ClsfyGaming1'
+	option disabled '1'
+	option all_disabled '1'
+
+config classify 'ClsfyGaming2'
+	option disabled '1'
+	option all_disabled '1'
+
+config classify 'ClsfyGaming3'
+	option disabled '1'
+	option all_disabled '1'
+

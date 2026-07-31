@@ -1,0 +1,4 @@
+
+config config 'setting'
+	option sip '0'
+

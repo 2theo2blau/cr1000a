@@ -1,0 +1,21 @@
+
+config log 'intrusion'
+	option block_frag '1'
+	option defrag_err '1'
+	option fraggle_attack '1'
+	option icmp_flood '1'
+	option icmp_multicast '1'
+	option icmp_redirect '1'
+	option bcast_mcast_flood '1'
+	option packet_illegal '1'
+	option syn_flood '1'
+	option udp_flood '1'
+	option winnuke_attack '1'
+
+config log 'generic'
+	option all_block '0'
+	option inbound '0'
+	option outbound '0'
+	option remote '0'
+	option conn_states '0'
+

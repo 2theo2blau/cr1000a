@@ -1,0 +1,5 @@
+
+config feature 'dim'
+	option dim_pattern 'dim'
+	option timer_minute '5'
+

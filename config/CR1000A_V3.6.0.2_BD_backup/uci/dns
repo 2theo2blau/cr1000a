@@ -1,0 +1,5 @@
+
+config wan
+	option stop_dns_rebind_enable '0'
+	option ip4_enable '1'
+

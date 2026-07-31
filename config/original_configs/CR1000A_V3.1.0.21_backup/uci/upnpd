@@ -1,0 +1,8 @@
+
+config upnpd 'config'
+	option enable_cleanrule '0'
+	option enabled '1'
+	option friendly_name 'Fios Router'
+	option manufacturer_name 'Verizon'
+	option model_name 'CR1000A'
+

@@ -1,0 +1,5 @@
+
+config login
+	option password 'REDACTED_PASSWORD_HASH'
+	option resetdefault '0'
+

@@ -1,0 +1,58 @@
+
+config routes 'ipv4_route0'
+	option enable '0'
+	option dest_ip '192.168.1.0'
+	option netmask '255.255.255.0'
+	option metric '0'
+	option gateway '192.168.1.1'
+	option ifname 'lan'
+
+config routes 'ipv4_route1'
+
+config routes 'ipv4_route2'
+
+config routes 'ipv4_route3'
+
+config routes 'ipv4_route4'
+
+config routes 'ipv4_route5'
+
+config routes 'ipv4_route6'
+
+config routes 'ipv4_route7'
+
+config routes 'ipv4_route8'
+
+config routes 'ipv4_route9'
+
+config routes 'ipv4_route10'
+
+config routes 'ipv4_route11'
+
+config routes 'ipv4_route12'
+
+config routes 'ipv4_route13'
+
+config routes 'ipv4_route14'
+
+config routes 'ipv4_route15'
+
+config routes 'ipv4_route16'
+
+config routes 'ipv4_route17'
+
+config routes 'ipv4_route18'
+
+config routes 'ipv4_route19'
+
+config routes 'ipv6_route0'
+	option enable '0'
+
+config cfg 'ipv4_cfg'
+	option enable '1'
+	option static_maxnum '20'
+
+config cfg 'ipv6_cfg'
+	option enable '1'
+	option static_maxnum '20'
+

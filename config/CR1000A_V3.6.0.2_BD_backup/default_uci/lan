@@ -1,0 +1,5 @@
+
+config interface
+	option domain_name 'mynetworksettings.com'
+	option reset '0'
+

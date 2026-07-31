@@ -1,0 +1,5 @@
+
+config mcafee 'config'
+	option enable '0'
+	option environment_code 'PROD'
+

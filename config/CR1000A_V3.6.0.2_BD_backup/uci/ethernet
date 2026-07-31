@@ -1,0 +1,19 @@
+
+config interface
+	option speed '0'
+
+config interface
+	option speed '0'
+
+config interface
+	option speed '0'
+
+config interface
+	option speed '0'
+
+config interface
+	option speed '0'
+
+config interface
+	option speed '0'
+

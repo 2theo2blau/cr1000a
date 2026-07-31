@@ -1,0 +1,4 @@
+
+config vlan 'zr_vlan'
+	option enable '0'
+

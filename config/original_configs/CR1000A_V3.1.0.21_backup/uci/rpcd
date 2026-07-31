@@ -1,0 +1,7 @@
+
+config login
+	option fullname 'Administrator'
+	option username 'REDACTED_PASSWORD_HASH'
+	option password 'REDACTED_PASSWORD_HASH'
+	option resetdefault '0'
+

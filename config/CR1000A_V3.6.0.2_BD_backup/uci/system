@@ -1,0 +1,26 @@
+
+config interface 'lan'
+	option coax_name 'Coax'
+	option ethernet_name 'Ethernet'
+	option network_name 'Network (Home/Office)'
+
+config interface 'wan'
+	option name 'Broadband Connection (Ethernet)'
+
+config timeserver 'ntp'
+	option enabled '1'
+	list server 'cpe-ntpa.verizon.com'
+	list server 'cpe-ntpr.verizon.com'
+	list server 'cpe-ntpb.verizon.com'
+	list server '1.north-america.pool.ntp.org'
+	list server '0.north-america.pool.ntp.org'
+
+config system 'main'
+	option hostname 'CR1000A'
+	option timezone 'UTC0'
+	option zonename 'UTC'
+	option location 'Other'
+
+config status 'software_status'
+	option firmware_ugprade '1'
+

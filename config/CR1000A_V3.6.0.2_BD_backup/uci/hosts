@@ -1,0 +1,5 @@
+
+config device 'delete'
+
+config device 'update'
+

@@ -1,0 +1,8 @@
+
+config mcproxy 'mcproxy'
+	option block_lan '0'
+	option block_moca '0'
+	option block_wifi_2_4G '0'
+	option block_wifi_5G '0'
+	option block_wifi_6G '0'
+

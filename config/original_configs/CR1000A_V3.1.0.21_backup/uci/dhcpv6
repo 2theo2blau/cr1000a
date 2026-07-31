@@ -1,0 +1,40 @@
+
+config lan
+	option dhcp6s_pool_end '2000'
+	option dhcp6s_pool_start '1000'
+	option dhcps_valid_time '3600'
+	option GUAAddr 'fd00:0000:0000:0::1'
+	option GUAPrefix 'fd00:0000:0000:0::'
+	option GUAPrefixLen '64'
+	option LinklocalAddr 'fe80::0000:0000:0000:0000'
+	option radvd_defaultLifetime '900'
+	option stateless '1'
+	option subnetid '00'
+
+config dhcpd-agent
+	option description 'Support dhcpd v6 only'
+	option version '4.4.1'
+
+config lan
+	option dhcp6s_mode 'server'
+	option dhcp6s_preferred_time '1800'
+	option dhcps_valid_time '3600'
+	option dhcp6s_pool_start '1000'
+	option dhcp6s_pool_end '2000'
+	option dhcp6s_option_PREF '255'
+	option ULAAddr 'fd00:0000::'
+	option ifname 'br-lan'
+	option dns_mode '0'
+	option subnetid '00'
+	option radvd_defaultLifetime '900'
+	option stateless '1'
+	option MACAddr '00:00:00:00:00:00'
+	option LinklocalAddr 'fe80::0000:0000:0000:0000'
+	option GUAPrefix 'fd00:0000:0000:0::'
+	option GUAAddr 'fd00:0000:0000:0::1'
+	option GUAPrefixLen '64'
+	option old_prefix 'fd00:0000:0000:0::'
+	option dhcp6s_T1 '900'
+	option dhcp6s_T2 '1440'
+	option ip6_ready '0'
+

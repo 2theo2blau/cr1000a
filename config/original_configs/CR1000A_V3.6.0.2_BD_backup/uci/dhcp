@@ -1,0 +1,276 @@
+
+config lan
+	option dhcp4s_enable '1'
+	option dhcp4s_lease_time '1440'
+	option dhcp4s_opt60_pool_end '192.168.1.150'
+	option dhcp4s_opt60_pool_start '192.168.1.100'
+	option dhcp4s_pool_start '192.168.1.2'
+	option dhcp4s_pool_end '192.168.1.254'
+	option dhcp4s_static_enable '1'
+	option dhcp4s_WINS_server '0.0.0.0'
+
+config lan
+	option dhcp4s_enable '1'
+
+config lan
+	option dhcp4s_enable '1'
+
+config lan
+	option dhcp4s_enable '1'
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+
+config static
+

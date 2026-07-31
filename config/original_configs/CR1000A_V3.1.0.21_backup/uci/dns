@@ -1,0 +1,8 @@
+
+config lan
+	option ip4_addr '192.168.1.1'
+
+config wan
+	option ip4_enable '1'
+	option stop_dns_rebind_enable '1'
+
