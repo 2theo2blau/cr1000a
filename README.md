@@ -84,3 +84,5 @@ in this repository has been redacted for security reasons so that the material
 can be shared safely. Anything that could expose credentials, private keys,
 personal data, or device-specific identifying material has been removed or
 replaced before publication.
+
+These vulnerabilities are not my own discovery. All credit goes to https://forum.openwrt.org/t/adding-support-for-verizon-cr1000a/134605.
